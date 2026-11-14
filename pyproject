@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xr6-filter-wall"
+version = "0.1.0"
+description = "Zero-Trust cryptographic payload filtering & SHA-256 integrity firewall library by XR6 Labs HQ."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Dr. Mohd Rahmat Nasyaa Bin Zulkifli", email = "hq@ac.xr6labs.com" }
+]
+keywords = ["security", "firewall", "cryptography", "sha256", "zero-trust", "xr6labs"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Topic :: Security :: Cryptography",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
+]
+
+[project.urls]
+Homepage = "https://xr6labs.com"
+Documentation = "https://xr6labs.com/research-engineering"
+Repository = "https://github.com/XR6matt88/xr6-filter-wall"
