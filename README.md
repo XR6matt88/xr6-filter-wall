@@ -1,1 +1,1 @@
-# xr6-filter-wall
+xr6-filter-wall is a lightweight, zero-dependency Python security and cryptographic filtering library developed by XR6 Labs HQ™ – Research & Engineering ([https://xr6labs.com](https://xr6labs.com)). Built on the Zero-Trust principle, it inspects, sanitizes, and cryptographically verifies incoming data payloads using SHA-256 integrity hashing, rate-limit guards, and strict schema validation to protect research portals, APIs, and institutional endpoints from injection, spoofing, and unauthorized tampering.
